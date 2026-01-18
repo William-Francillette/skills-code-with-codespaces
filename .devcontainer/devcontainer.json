@@ -1,6 +1,7 @@
 {
   "name": "Universal - Latest",
   "image": "mcr.microsoft.com/devcontainers/universal:latest",
+  "postCreateCommand": "bash .devcontainer/postCreate.sh",
   "features": {
     "ghcr.io/stu-bell/devcontainer-features/python:0": {
       "apt_get": true,
